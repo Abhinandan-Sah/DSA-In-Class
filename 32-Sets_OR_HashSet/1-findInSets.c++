@@ -9,6 +9,8 @@ int main()
     s.insert(2);
     s.insert(3);
     s.insert(4);
+    s.insert(4);
+    s.insert(4);
     int target = 6;
     cout<<(s.find(target) != s.end());
     return 0;
